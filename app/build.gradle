@@ -8,7 +8,6 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "co.skytechtest"
         minSdk 24
         targetSdk 32
         versionCode 1
