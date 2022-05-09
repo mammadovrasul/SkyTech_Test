@@ -1,4 +1,7 @@
 jdk:
   - openjdk11
 before_install:
-  - ./scripts/prepareJitpackEnvironment.sh
+  - ./custom_setup.sh
+install:
+  - echo "Running a custom install command"
+  - ./gradlew clean install -xtest
